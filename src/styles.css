@@ -1,0 +1,32 @@
+.App {
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#node {
+  background-color: #bada55;
+  min-width: 200px;
+  min-height: 200px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+h5 {
+  margin: 10px 5px;
+  flex-grow: 1;
+}
+
+#node textarea {
+  width: 100%;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.top-row {
+  display: flex;
+}
